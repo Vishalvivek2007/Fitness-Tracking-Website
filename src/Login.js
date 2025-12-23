@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:3003/users');
+      const response = await fetch('https://fitness-tracking-website-backend-json.onrender.com/users');
       const users = await response.json();
       const user = users.find(u => u.email === email && u.password === password);
       

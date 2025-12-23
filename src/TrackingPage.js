@@ -38,7 +38,7 @@ const TrackingPage = () => {
 
   const fetchTrackingData = async () => {
     try {
-      const response = await axios.get(`http://localhost:3003/tracking?userId=${user.id}`);
+      const response = await axios.get(`https://fitness-tracking-website-backend-json.onrender.com/tracking?userId=${user.id}`);
       setTrackingData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -48,7 +48,7 @@ const TrackingPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3003/tracking', {
+      await axios.post('https://fitness-tracking-website-backend-json.onrender.com/tracking', {
         userId: user.id,
         date,
         calories: parseInt(calories),
