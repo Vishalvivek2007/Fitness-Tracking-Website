@@ -23,7 +23,7 @@ const Body = () => {
           playsInline
           preload="auto"
         >
-          <source src="/bg.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/diwz3ebe3/video/upload/v1766513554/bg_dyhz21.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="tile main-tile">
