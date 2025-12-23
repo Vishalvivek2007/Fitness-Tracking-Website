@@ -1,9 +1,5 @@
 import React from 'react';
 import './WorkoutsPage.css';
-import warmup from './assets/video/warmup.mp4';
-import pushup from './assets/video/pushup.mp4';
-import chest from './assets/video/chest.mp4';
-import wloss from './assets/video/wightloss.mp4';
 const WorkoutsPage = () => {
   return (
     <div className="workouts-page">
@@ -13,7 +9,7 @@ const WorkoutsPage = () => {
       </div>
       
       <div className="Box">
-        <video controls src={warmup} className='video1' muted></video>
+        <video controls src="/warmup.mp4" className='video1' muted></video>
         <div className="Content">
           <p className='videoinfo'><span className="f">W</span>arm Up Tutorial</p>
         </div>
@@ -23,11 +19,11 @@ const WorkoutsPage = () => {
         <div className="Content">
           <p className='videoinfo'><span className="f">C</span>ore Exercises </p>
         </div>
-        <video controls src={pushup} className='video1' muted></video>
+        <video controls src="/pushup.mp4" className='video1' muted></video>
         </div> 
 
         <div className="Box">
-        <video controls src={chest} className='video1' muted></video>
+        <video controls src="/chest.mp4" className='video1' muted></video>
         <div className="Content">
           <p className='videoinfo'><span className="f">C</span>hest and Tricep</p>
         </div>
@@ -37,7 +33,7 @@ const WorkoutsPage = () => {
         <div className="Content">
           <p className='videoinfo'><span className="f">F</span>at Buring exercises</p>
         </div>
-        <video controls src={wloss} className='video1' muted></video>
+        <video controls src="wightloss.mp4" className='video1' muted></video>
         </div> 
 
 

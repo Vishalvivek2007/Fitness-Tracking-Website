@@ -2,7 +2,6 @@ import React from 'react';
 import './menu.css';
 import { Link, useNavigate } from 'react-router-dom';
 import Footer from './Footer';
-import backgroundVideo from './assets/video/5319099-uhd_3840_2160_25fps.mp4'; 
 import workoutImage from './assets/pics/pexels-panther-1547248.jpg'; 
 import weightLossImage from './assets/pics/pexels-olly-3757376.jpg'; 
 import harshadImage from './assets/pics/download.jpeg';
@@ -16,7 +15,16 @@ const Body = () => {
   return (
     <div>
       <div className="background-video">
-        <video className="video" src={backgroundVideo} autoPlay loop muted playsInline></video>
+        <video
+          className="video"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
+          <source src="/bg.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className="tile main-tile">
         <div className="main-tile-pic" style={{ backgroundImage: `url(${workoutImage})` }}></div>
