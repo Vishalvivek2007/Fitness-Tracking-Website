@@ -50,7 +50,7 @@ const Register = () => {
     }
 
     try {
-      await axios.post('http://localhost:3003/users', formData);
+      await axios.post('https://fitness-tracking-website-backend-json.onrender.com/users', formData);
       navigate('/login');
     } catch (error) {
       console.error('Registration failed:', error);
