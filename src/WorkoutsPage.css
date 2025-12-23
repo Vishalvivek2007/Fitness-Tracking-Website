@@ -1,0 +1,60 @@
+.workouts-page{
+  text-align: center;
+}
+
+
+.main-heading{
+  margin-bottom: -17px;
+  font-size: 100px;
+  font-weight: 570;
+  color: whitesmoke;
+}
+
+.Box{
+  margin-left: 80px;  
+  height: 350px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 700px 1fr;
+}
+
+.video1{
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 55px;
+  max-height: 400px;
+}
+
+.Content{
+  display: flex;
+  align-items: center;
+}
+
+.videoinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 550;
+}
+
+.Box2{
+  margin-left: 80px;  
+  height: 350px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 700px;
+}
+
+.topheading{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  display: flex;
+  width: fit-content;
+  margin-top: 200px;
+  margin-bottom: 120px;
+  justify-content: center;
+  border-bottom: 2px white solid;
+}

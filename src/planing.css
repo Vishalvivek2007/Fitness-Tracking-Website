@@ -1,0 +1,164 @@
+.planning-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 20px;
+  max-width: 800px;
+  margin-top: 100px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.planning-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #ff9c1d;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ff9c1d;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #ff9c1d;
+  color: black;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #ff8c00;
+}
+
+.results-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ff9c1d;
+}
+
+.health-summary {
+  background: rgba(255, 156, 29, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.health-summary h3 {
+  color: #ff9c1d;
+  margin-top: 0;
+}
+
+.exercise-plan,
+.diet-plan {
+  margin-bottom: 30px;
+}
+
+.exercise-plan h4,
+.diet-plan h4 {
+  color: #ff9c1d;
+  border-bottom: 1px solid #ff9c1d;
+  padding-bottom: 8px;
+}
+
+.exercises {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.exercise {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 3px solid #ff9c1d;
+}
+
+.exercise h5 {
+  margin-top: 0;
+  color: #ff9c1d;
+}
+
+.calories {
+  font-style: italic;
+  color: #aaa;
+}
+
+.meal {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.meal h5 {
+  color: #ff9c1d;
+  margin-top: 0;
+}
+
+.meal ul {
+  padding-left: 20px;
+}
+
+.meal li {
+  margin-bottom: 8px;
+}
+
+.tips {
+  background: rgba(255, 156, 29, 0.1);
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.tips h4 {
+  color: #ff9c1d;
+  margin-top: 0;
+}
+
+.tips ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .planning-form,
+  .results-container {
+    padding: 15px;
+  }
+  
+  .exercises {
+    grid-template-columns: 1fr;
+  }
+}
+.inputplan{
+  margin: 0;
+}
+.planheading{
+  text-align: center;
+}
